@@ -171,7 +171,7 @@ void joc()
     else
         {n=26;mine=250;liber=n*n-mine;nrFlaguri=mine;}
     initializare();
-    cout<<"nrFlaguri: "<<nrFlaguri<<endl;
+    cout<<"nrFlaguri: "<<nrFlaguri<<endl<<endl;
     afisare();
     initializarea();
     while(!libere() || ok==0)
@@ -222,7 +222,7 @@ void joc()
             cout<<"victorie"<<endl;afisare();
             break;
         }
-        cout<<"nrFlaguri: "<<nrFlaguri<<endl;
+        cout<<"nrFlaguri: "<<nrFlaguri<<endl<<endl;
         afisare();
     }
 

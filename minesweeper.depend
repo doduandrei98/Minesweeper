@@ -1,1 +1,6 @@
 # depslib dependency file v1.0
+1484323325 source:e:\desktop\ptobleme c++ 1\minesweeper\minesweeper\main.cpp
+	<iostream>
+	<string>
+	<stdlib.h>
+
